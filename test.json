@@ -1,0 +1,1610 @@
+{
+  "containers": [
+    {
+      "cid": "8rZH1110",
+      "created": 1499779813,
+      "metadata": {
+        "annotations": 0,
+        "name": "test",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1499779813,
+        "type": "session"
+      },
+      "mod": 0,
+      "modified": 1499779819,
+      "object": 2,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "wBdVAAv0",
+      "created": 1482138702,
+      "metadata": {
+        "annotations": 25,
+        "initial": 1,
+        "name": "My First Folia",
+        "owner": "mikhail.belyakov@chisw.com",
+        "stamp": 1482138702,
+        "type": "session"
+      },
+      "mod": 27,
+      "modified": 1493384686,
+      "object": 37,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 3
+        },
+        {
+          "email": "mikhail.belyakov@chisw.com",
+          "entityId": 1979,
+          "entityType": "user",
+          "name": "Mike",
+          "p": 15
+        }
+      ],
+      "rev": 3
+    },
+    {
+      "cid": "vZcFMKy0",
+      "created": 1491837182,
+      "metadata": {
+        "annotations": 0,
+        "cid": "vZcFMKy0",
+        "created": 1491837182,
+        "modified": 1494841189,
+        "name": "My First Folia",
+        "owner": "mikhail@branchfire.com",
+        "type": "session"
+      },
+      "mod": 1,
+      "modified": 1494841195,
+      "object": 3,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "zjrLh6f0",
+      "created": 1506583375,
+      "metadata": {
+        "annotations": 0,
+        "description": "22",
+        "name": "1234611",
+        "owner": "mikhail@branchfire.com",
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1506605182,
+      "object": 3,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "bGwiBpj0",
+      "created": 1509397964,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509397964,
+        "name": "301017",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509397964,
+        "type": "session"
+      },
+      "mod": 0,
+      "modified": 1509397967,
+      "object": 2,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "F3yWiWv0",
+      "created": 1509444457,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509444457,
+        "name": "6992",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509444457,
+        "type": "session"
+      },
+      "mod": 0,
+      "modified": 1509444457,
+      "object": 1,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 2
+    },
+    {
+      "cid": "ZQwfdvj0",
+      "created": 1509444480,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509444480,
+        "name": "6993",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509444480,
+        "type": "session"
+      },
+      "mod": 0,
+      "modified": 1509444480,
+      "object": 1,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 2
+    },
+    {
+      "cid": "lAbZGd90",
+      "created": 1509632156,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509632156,
+        "name": "FOL-670(2)",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509632156,
+        "type": "session"
+      },
+      "mod": 2,
+      "modified": 1509632222,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "khb3Oop0",
+      "created": 1507118686,
+      "metadata": {
+        "annotations": 0,
+        "name": "888",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507118686,
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1507118813,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "sKW2Bn90",
+      "created": 1493022275,
+      "metadata": {
+        "annotations": 0,
+        "name": "24042017",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1493022275,
+        "type": "session"
+      },
+      "mod": 0,
+      "modified": 1493022275,
+      "object": 1,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "D85R5ES0",
+      "created": 1499854084,
+      "metadata": {
+        "annotations": 0,
+        "name": "1207",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1499854084,
+        "type": "session"
+      },
+      "mod": 21,
+      "modified": 1499936439,
+      "object": 6,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "qwJEtH50",
+      "created": 1505488828,
+      "metadata": {
+        "annotations": 0,
+        "name": "12",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1505488828,
+        "type": "session"
+      },
+      "mod": 2,
+      "modified": 1505825229,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 9
+    },
+    {
+      "cid": "tUdNpAl0",
+      "created": 1507118377,
+      "metadata": {
+        "annotations": 0,
+        "name": "777",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507118377,
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1507118683,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "p3NShGC0",
+      "created": 1507118819,
+      "metadata": {
+        "annotations": 0,
+        "name": "999",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507118819,
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1507121639,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "xKidvyZ0",
+      "created": 1507121770,
+      "metadata": {
+        "annotations": 0,
+        "name": "1011",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507121770,
+        "type": "session"
+      },
+      "mod": 1,
+      "modified": 1507121785,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "5C5w8S50",
+      "created": 1507130189,
+      "metadata": {
+        "annotations": 0,
+        "name": "2011",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507130189,
+        "type": "session"
+      },
+      "mod": 4,
+      "modified": 1507130443,
+      "object": 6,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "GjV3qfA0",
+      "created": 1509444434,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509444434,
+        "name": "6991",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509444434,
+        "type": "session"
+      },
+      "mod": 0,
+      "modified": 1509444434,
+      "object": 1,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 6
+    },
+    {
+      "cid": "w4cXK0O0",
+      "created": 1492160979,
+      "metadata": {
+        "annotations": 0,
+        "cid": "w4cXK0O0",
+        "created": 1492160979,
+        "description": "Our hospital can improve both patient outcomes and satisfaction by embracing mobile-friendly approaches to patient comm\n\n\n\n\n\n\nOur hospital can improve both patient outcomes and satisfaction by embracing mobile-friendly approaches          to patient communication.\nOur hospital can improve both patient outcomes and satisfaction by embracing mobile-friendly approaches to patient communication.Our hospital can improve both patient outcomes and satisfaction by embracing mobile-friendly approaches to:- hghe",
+        "modified": 1492172432,
+        "name": "n1404",
+        "owner": "mikhail.belyakov@chisw.com",
+        "type": "session"
+      },
+      "mod": 14,
+      "modified": 1493371306,
+      "object": 5,
+      "perms": [
+        {
+          "email": "mikhail.belyakov@chisw.com",
+          "entityId": 1979,
+          "entityType": "user",
+          "name": "Mike",
+          "p": 15
+        },
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 3
+        },
+        {
+          "email": "prorock@list.ru",
+          "entityId": 1971,
+          "entityType": "user",
+          "name": "qqq",
+          "p": 15
+        }
+      ],
+      "rev": 3
+    },
+    {
+      "cid": "Ru82UYk0",
+      "created": 1492172569,
+      "metadata": {
+        "annotations": 0,
+        "cid": "Ru82UYk0",
+        "created": 1492172569,
+        "modified": 1492177729,
+        "name": ",mm",
+        "owner": "mikhail@branchfire.com",
+        "type": "session"
+      },
+      "mod": 5,
+      "modified": 1492178213,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "bx3iksU0",
+      "created": 1492786499,
+      "metadata": {
+        "annotations": 9,
+        "cid": "bx3iksU0",
+        "created": 1492786499,
+        "modified": 1492797821,
+        "name": "testGettingPreviewImage",
+        "owner": "mikhail@branchfire.com",
+        "type": "session"
+      },
+      "mod": 18,
+      "modified": 1492800098,
+      "object": 12,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "yBp3v8P0",
+      "created": 1506605256,
+      "metadata": {
+        "annotations": 0,
+        "name": "1",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1506608547,
+        "type": "session"
+      },
+      "mod": 10,
+      "modified": 1506690782,
+      "object": 6,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "PFPrD070",
+      "created": 1492162067,
+      "metadata": {
+        "annotations": 0,
+        "cid": "PFPrD070",
+        "created": 1492162067,
+        "description": "WWWWWWWWW",
+        "modified": 1492169133,
+        "name": "mqw",
+        "owner": "mikhail@branchfire.com",
+        "type": "session"
+      },
+      "mod": 17,
+      "modified": 1492172432,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "SLbOgav0",
+      "created": 1491493223,
+      "metadata": {
+        "annotations": 4,
+        "cid": "SLbOgav0",
+        "created": 1491493223,
+        "description": "Share modal has the wrong access details for Co-Author and Reader",
+        "modified": 1495477682,
+        "name": "Shared with Mikhail and Oleg",
+        "owner": "nandini+1001@branchfire.com",
+        "type": "session"
+      },
+      "mod": 28,
+      "modified": 1495653712,
+      "object": 11,
+      "perms": [
+        {
+          "email": "nandini+1001@branchfire.com",
+          "entityId": 1997,
+          "entityType": "user",
+          "name": "n",
+          "p": 15
+        },
+        {
+          "email": "oleg@branchfire.com",
+          "entityId": 1973,
+          "entityType": "user",
+          "name": "Oleg",
+          "p": 3
+        },
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 3
+    },
+    {
+      "cid": "CT6yz1P0",
+      "created": 1492782269,
+      "metadata": {
+        "annotations": 7,
+        "name": "210417",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1492782269,
+        "type": "session"
+      },
+      "mod": 46,
+      "modified": 1492784409,
+      "object": 10,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "Q2NMdHz0",
+      "created": 1491899947,
+      "metadata": {
+        "annotations": 19,
+        "cid": "Q2NMdHz0",
+        "created": 1491899947,
+        "description": "G",
+        "modified": 1493113132,
+        "name": "110417",
+        "owner": "mikhail.belyakov@chisw.com",
+        "type": "session"
+      },
+      "mod": 1007,
+      "modified": 1493371306,
+      "object": 71,
+      "perms": [
+        {
+          "email": "mikhail.belyakov@chisw.com",
+          "entityId": 1979,
+          "entityType": "user",
+          "name": "Mike",
+          "p": 15
+        },
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 3
+        },
+        {
+          "email": "prorock@list.ru",
+          "entityId": 1971,
+          "entityType": "user",
+          "name": "qqq",
+          "p": 15
+        }
+      ],
+      "rev": 3
+    },
+    {
+      "cid": "3XnUIAl0",
+      "created": 1506077295,
+      "metadata": {
+        "annotations": 0,
+        "description": "333",
+        "name": "55000",
+        "owner": "mikhail.belyakov@chisw.com",
+        "type": "session"
+      },
+      "mod": 6,
+      "modified": 1508843041,
+      "object": 7,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 3
+        },
+        {
+          "email": "mikhail.belyakov@chisw.com",
+          "entityId": 1979,
+          "entityType": "user",
+          "name": "Mike",
+          "p": 15
+        }
+      ],
+      "rev": 9
+    },
+    {
+      "cid": "ZMyblHv0",
+      "created": 1498736202,
+      "metadata": {
+        "annotations": 23,
+        "name": "test",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1498736202,
+        "type": "session"
+      },
+      "mod": 94,
+      "modified": 1498746558,
+      "object": 28,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "V35ObJ30",
+      "created": 1498815297,
+      "metadata": {
+        "annotations": 24,
+        "name": "3006",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1498815297,
+        "type": "session"
+      },
+      "mod": 93,
+      "modified": 1498828167,
+      "object": 27,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "UX4ocis0",
+      "created": 1499080810,
+      "metadata": {
+        "annotations": 6,
+        "name": "0307",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1499080810,
+        "type": "session"
+      },
+      "mod": 67,
+      "modified": 1499086943,
+      "object": 9,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "IFfMEoe0",
+      "created": 1498720891,
+      "metadata": {
+        "annotations": 3,
+        "name": "2906",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1498720891,
+        "type": "session"
+      },
+      "mod": 14,
+      "modified": 1498721537,
+      "object": 15,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "haBIW7g0",
+      "created": 1499418732,
+      "metadata": {
+        "annotations": 0,
+        "name": "0707",
+        "owner": "mikhail.belyakov@chisw.com",
+        "type": "session"
+      },
+      "mod": 24,
+      "modified": 1500553952,
+      "object": 29,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 3
+        },
+        {
+          "email": "mikhail.belyakov@chisw.com",
+          "entityId": 1979,
+          "entityType": "user",
+          "name": "Mike",
+          "p": 15
+        }
+      ],
+      "rev": 1
+    },
+    {
+      "cid": "rXS8Zlk0",
+      "created": 1499680048,
+      "metadata": {
+        "annotations": 12,
+        "name": "1007",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1499680048,
+        "type": "session"
+      },
+      "mod": 94,
+      "modified": 1499772641,
+      "object": 39,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "tFwvXhc0",
+      "created": 1499773057,
+      "metadata": {
+        "annotations": 5,
+        "name": "1107",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1499773057,
+        "type": "session"
+      },
+      "mod": 21,
+      "modified": 1499773365,
+      "object": 17,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "aVQ2EIb0",
+      "created": 1499781465,
+      "metadata": {
+        "annotations": 0,
+        "name": "new1107",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1499781465,
+        "type": "session"
+      },
+      "mod": 8,
+      "modified": 1499785137,
+      "object": 5,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "J6zq6440",
+      "created": 1506674669,
+      "metadata": {
+        "annotations": 0,
+        "name": "2",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1506674669,
+        "type": "session"
+      },
+      "mod": 4,
+      "modified": 1506674701,
+      "object": 6,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "Esdgv1S0",
+      "created": 1506935917,
+      "metadata": {
+        "annotations": 0,
+        "name": "0210",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1506935917,
+        "type": "session"
+      },
+      "mod": 5,
+      "modified": 1506936081,
+      "object": 6,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "skJmqbS0",
+      "created": 1506936115,
+      "metadata": {
+        "annotations": 4,
+        "name": "021017",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1506936115,
+        "type": "session"
+      },
+      "mod": 8,
+      "modified": 1506936228,
+      "object": 7,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "Wm4s7an0",
+      "created": 1507112836,
+      "metadata": {
+        "annotations": 0,
+        "name": "0410",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507112836,
+        "type": "session"
+      },
+      "mod": 23,
+      "modified": 1507114421,
+      "object": 18,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "DyjkICM0",
+      "created": 1507121947,
+      "metadata": {
+        "annotations": 0,
+        "name": "1012",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507121947,
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1507121996,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "ghhYWms0",
+      "created": 1507122054,
+      "metadata": {
+        "annotations": 0,
+        "name": "1013",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507122054,
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1507122272,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "ZoWwbGU0",
+      "created": 1507122282,
+      "metadata": {
+        "annotations": 0,
+        "name": "1014",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507122282,
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1507122396,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "cUGPjfR0",
+      "created": 1507122399,
+      "metadata": {
+        "annotations": 0,
+        "name": "1015",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507122399,
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1507124645,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "2BGEX1h0",
+      "created": 1507124652,
+      "metadata": {
+        "annotations": 0,
+        "name": "2010",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507124652,
+        "type": "session"
+      },
+      "mod": 26,
+      "modified": 1507130186,
+      "object": 27,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "F2ayXcT0",
+      "created": 1507211646,
+      "metadata": {
+        "annotations": 0,
+        "name": "051012",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507211646,
+        "type": "session"
+      },
+      "mod": 6,
+      "modified": 1507212334,
+      "object": 7,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "lrjrPtV0",
+      "created": 1508497498,
+      "metadata": {
+        "annotations": 0,
+        "name": "201017",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1508497498,
+        "type": "session"
+      },
+      "mod": 37,
+      "modified": 1508502015,
+      "object": 30,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "Op0Ywfg0",
+      "created": 1508509580,
+      "metadata": {
+        "annotations": 0,
+        "name": "777",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1508509580,
+        "type": "session"
+      },
+      "mod": 4,
+      "modified": 1508510153,
+      "object": 6,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "qu3AHtt0",
+      "created": 1499948765,
+      "metadata": {
+        "annotations": 15,
+        "name": "1307",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1499948765,
+        "type": "session"
+      },
+      "mod": 233,
+      "modified": 1500039312,
+      "object": 63,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "hMluwHx0",
+      "created": 1507019953,
+      "metadata": {
+        "annotations": 4,
+        "name": "0310",
+        "owner": "mikhail.belyakov@chisw.com",
+        "stamp": 1507019953,
+        "type": "session"
+      },
+      "mod": 36,
+      "modified": 1507040382,
+      "object": 31,
+      "perms": [
+        {
+          "email": "mikhail.belyakov@chisw.com",
+          "entityId": 1979,
+          "entityType": "user",
+          "name": "Mike",
+          "p": 15
+        },
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 3
+        },
+        {
+          "email": "prorock@list.ru",
+          "entityId": 1971,
+          "entityType": "user",
+          "name": "qqq",
+          "p": 3
+        }
+      ],
+      "rev": 2
+    },
+    {
+      "cid": "EUcKPON0",
+      "created": 1507114423,
+      "metadata": {
+        "annotations": 0,
+        "name": "555",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507114423,
+        "type": "session"
+      },
+      "mod": 11,
+      "modified": 1507118375,
+      "object": 10,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "YWGxcVV0",
+      "created": 1507194425,
+      "metadata": {
+        "annotations": 0,
+        "name": "0510",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507194425,
+        "type": "session"
+      },
+      "mod": 15,
+      "modified": 1507195076,
+      "object": 16,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "PyDJ60q0",
+      "created": 1507195081,
+      "metadata": {
+        "annotations": 0,
+        "name": "3010",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507195081,
+        "type": "session"
+      },
+      "mod": 3,
+      "modified": 1507196923,
+      "object": 4,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "hEWRF8F0",
+      "created": 1507196928,
+      "metadata": {
+        "annotations": 0,
+        "name": "3011",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1507196928,
+        "type": "session"
+      },
+      "mod": 6,
+      "modified": 1507197167,
+      "object": 7,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "BWknsrX0",
+      "created": 1505399214,
+      "metadata": {
+        "annotations": 6,
+        "name": "local upload",
+        "owner": "gawrilko@gmail.com",
+        "stamp": 1505399214,
+        "type": "session"
+      },
+      "mod": 28,
+      "modified": 1508868477,
+      "object": 23,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 3
+        },
+        {
+          "email": "gawrilko@gmail.com",
+          "entityId": 1998,
+          "entityType": "user",
+          "name": "Oleg Lavrentyev",
+          "p": 15
+        }
+      ],
+      "rev": 4
+    },
+    {
+      "cid": "mpLUn4k0",
+      "created": 1508838932,
+      "metadata": {
+        "annotations": 8,
+        "description": "Rename sun",
+        "name": "for oleg renamed",
+        "object": 0,
+        "owner": "mezentseva.tanya@gmail.com",
+        "stamp": 1508838932.70019,
+        "type": "session"
+      },
+      "mod": 37,
+      "modified": 1508927998,
+      "object": 41,
+      "perms": [
+        {
+          "email": "mezentseva.tanya@gmail.com",
+          "entityId": 2235,
+          "entityType": "user",
+          "name": "test",
+          "p": 15
+        },
+        {
+          "email": "oleg@branchfire.com",
+          "entityId": 1973,
+          "entityType": "user",
+          "name": "Oleg",
+          "p": 15
+        },
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 4
+    },
+    {
+      "cid": "VZvnWqs0",
+      "created": 1509006453,
+      "metadata": {
+        "annotations": 0,
+        "name": "2610",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509006453,
+        "type": "session"
+      },
+      "mod": 2,
+      "modified": 1509006493,
+      "object": 3,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 4
+    },
+    {
+      "cid": "TeZwSGh0",
+      "created": 1509549151,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509549151,
+        "name": "FOL-673",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509549151,
+        "type": "session"
+      },
+      "mod": 9,
+      "modified": 1509700207,
+      "object": 9,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "CiOuJEp0",
+      "created": 1509632243,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509632243,
+        "name": "FOL-670(3)",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509632243,
+        "type": "session"
+      },
+      "mod": 8,
+      "modified": 1509632932,
+      "object": 10,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    },
+    {
+      "cid": "r8HUkfj0",
+      "created": 1509443707,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509443707,
+        "name": "FOL-699",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509443707,
+        "type": "session"
+      },
+      "mod": 2,
+      "modified": 1509703908,
+      "object": 3,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 3
+    },
+    {
+      "cid": "ayDNyb30",
+      "created": 1509707235,
+      "metadata": {
+        "annotations": 0,
+        "created": 1509707235,
+        "name": "0311",
+        "owner": "mikhail@branchfire.com",
+        "stamp": 1509707235,
+        "type": "session"
+      },
+      "mod": 2,
+      "modified": 1509707397,
+      "object": 3,
+      "perms": [
+        {
+          "email": "mikhail@branchfire.com",
+          "entityId": 1972,
+          "entityType": "user",
+          "invited": 1,
+          "name": "Mikhail Belyakov",
+          "p": 15
+        }
+      ],
+      "rev": 0
+    }
+  ],
+  "usage": {
+    "docs": 42,
+    "mb": 23
+  }
+}
