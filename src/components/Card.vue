@@ -7,19 +7,26 @@
       <span class="card__author">
         By {{ card.metadata.owner }}
       </span>
+
+      <app-edit-card></app-edit-card>
     </div>
   </div>
 </template>
 
 <script>
+  import EditCard from './EditCard.vue';
+
   export default {
     props: ['card'],
+    components: {
+      appEditCard: EditCard
+    }
   }
 </script>
 
 <style lang="scss">
   .card {
-    padding: 20px 10px;
+    padding: 20px 30px 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,6 +45,7 @@
 
     &__bar {
       display: flex;
+      align-items: center;
       justify-content: space-between;
 
     }

@@ -37,6 +37,17 @@
     background-color: #f1f1f0
   }
 
+  button {
+    padding: 0;
+    border: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
   .container {
     width: 80%;
     margin: auto;
