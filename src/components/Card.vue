@@ -8,7 +8,7 @@
         By {{ card.metadata.owner }}
       </span>
 
-      <app-edit-card></app-edit-card>
+      <app-edit-card :card="card"></app-edit-card>
     </div>
   </div>
 </template>
