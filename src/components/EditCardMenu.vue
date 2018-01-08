@@ -23,7 +23,6 @@
     created() {
     }
   }
-//  console.log('from bottom ', eventBus);
 </script>
 
 

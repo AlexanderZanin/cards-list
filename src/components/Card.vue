@@ -57,7 +57,6 @@
 
       finishEditing() {
         this.showEditName = false;
-//        card.modified = new Date().getTime();
       }
     }
   }

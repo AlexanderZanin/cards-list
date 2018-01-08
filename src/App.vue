@@ -6,11 +6,6 @@
     </app-header>
     <div class="container">
 
-      <!--<p class="app-note">-->
-        <!--Cards are sorted by date of modify. If card will be modify it will be set in new cards group (current date).-->
-      <!--</p>-->
-      <!--<app-card-grid :cards="sortedByDateModify"></app-card-grid>-->
-
       <div class="cards-group" v-for="group in groupedByDateOfCreate">
         <h3 class="cards-group__title">
           {{ group.date }}
