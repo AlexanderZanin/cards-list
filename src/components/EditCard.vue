@@ -3,22 +3,23 @@
     <button class="edit-card" v-click-outside="outsideClick" @click="showMenu">
       <span class="edit-card__circle">Edit</span>
     </button>
-    <ul class="edit-card-menu" v-if="menuIsVisible">
-      <li class="edit-card-menu__item" @click="renameCard">Rename</li>
-      <li class="edit-card-menu__item" @click="deleteCard(card.cid)">Delete</li>
-    </ul>
+
+    <slot></slot>
   </div>
 </template>
 
 <script>
-  import EditCard from './EditCard.vue';
-  import { eventBus } from '../main';
+  import EditCardMenu from './EditCardMenu.vue';
 
   export default {
-    props: ['card'],
     data() {
       return {
         menuIsVisible: false
+      }
+    },
+    watch: {
+      menuIsVisible() {
+        this.$emit('editButtonWasClicked', this.menuIsVisible);
       }
     },
     methods: {
@@ -27,13 +28,6 @@
       },
       outsideClick() {
         this.menuIsVisible = false;
-      },
-      renameCard() {
-        console.log('rename!!!');
-      },
-      deleteCard(id) {
-        console.log('delete!!!', id);
-        eventBus.$emit('cardWasRemoved', this.card);
       }
     },
     directives: {
@@ -54,7 +48,7 @@
               binding.value(e)
             }
           };
-          el.__vueClickOutside__ = handler
+          el.__vueClickOutside__ = handler;
 
           // add Event Listeners
           document.addEventListener('click', handler)
@@ -107,28 +101,6 @@
       &:after {
         bottom: -10px;
       }
-
     }
-
-  }
-
-
-  .edit-card-menu {
-    min-width: 160px;
-    border-radius: 4px;
-    position: absolute;
-    left: -25px;
-    top: 0;
-    background-color: #fff;
-    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .2);
-
-    &__item {
-      cursor: pointer;
-      padding: 3px 10px;
-      &:hover {
-        background-color: #eCeCeC
-      }
-    }
-
   }
 </style>

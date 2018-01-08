@@ -1,14 +1,31 @@
 <template>
-  <div class="container">
-    <div>
-      <input type="search" v-model="filterCardsInput">
-    </div>
-    <!--<app-card-grid :cards="sortedByDateModify"></app-card-grid>-->
-    <div class="cards-group" v-for="(groupValue, groupKey) in groupedByDateOfModify">
-      <h3 class="cards-group__title">
-        {{ groupKey }}
-      </h3>
-      <app-card-grid :cards="groupValue" :filterCardsInput="filterCardsInput"></app-card-grid>
+  <div id="app">
+    <app-header>
+      <app-search slot="search"
+                  @searching="filterCardsInput = $event"></app-search>
+    </app-header>
+    <div class="container">
+
+      <!--<p class="app-note">-->
+        <!--Cards are sorted by date of modify. If card will be modify it will be set in new cards group (current date).-->
+      <!--</p>-->
+      <!--<app-card-grid :cards="sortedByDateModify"></app-card-grid>-->
+
+      <div class="cards-group" v-for="group in groupedByDateOfCreate">
+        <h3 class="cards-group__title">
+          {{ group.date }}
+        </h3>
+        <app-card-grid :cards="group.cards" :filterCardsInput="filterCardsInput"></app-card-grid>
+      </div>
+
+      <app-button-add></app-button-add>
+
+      <app-modal>
+        <template slot="header">Add new card.</template>
+
+        <app-add-new-card slot="body" :cards="cards"></app-add-new-card>
+      </app-modal>
+
     </div>
   </div>
 </template>
@@ -17,15 +34,30 @@
   import _ from 'lodash';
   import { containers } from '../test.json';
   import { eventBus } from './main';
+  import Header from './components/Header.vue';
+  import Search from './components/Search.vue';
   import CardGrid from './components/CardGrid.vue';
+  import ButtonAdd from './components/ButtonAdd.vue';
+  import Modal from './components/Modal.vue';
+  import AddNewCard from './components/AddNewCard.vue';
+
 
 
   export default {
     data () {
       return {
         cards: containers,
-        filterCardsInput: ''
+        filterCardsInput: '',
+        showModal: false
       }
+    },
+    components: {
+      appHeader: Header,
+      appSearch: Search,
+      appCardGrid: CardGrid,
+      appButtonAdd: ButtonAdd,
+      appModal: Modal,
+      appAddNewCard: AddNewCard
     },
     computed: {
       sortedByDateOfModify() {
@@ -33,27 +65,44 @@
 //            return a.modified - b.modified;
 //        });
       },
-      groupedByDateOfModify() {
-        return _.groupBy(this.cards, (card) => {
-          let dateOfModify = new Date(card.modified);
-          dateOfModify = new Date(dateOfModify).toUTCString();
-          dateOfModify = dateOfModify.split(' ').slice(0, 4).join(' ');
+      groupedByDateOfCreate() {
+        const groups = _.groupBy(this.cards, (card) => {
+          let date = new Date(card.created);
+          date = new Date(date).toUTCString();
+          date = date.split(' ').slice(0, 4).join(' ');
 
           // returns time string without time and timezone
-          console.log('dateOfModify', dateOfModify);
-          return dateOfModify
+          return date
         });
+
+        const sortable = [];
+
+        for (let key in groups) {
+          sortable.push({
+            date: key,
+            time: new Date(key).getTime(),
+            cards: groups[key]
+          });
+        }
+
+//        console.log('sortable before', sortable);
+
+        let a = sortable.sort((a, b) => {
+          return b.time - a.time;
+        });
+
+
+        console.log('sortable', a);
+        return a;
+
       }
     },
-    components: {
-      appCardGrid: CardGrid
-    },
     created() {
-      eventBus.$on('cardWasRemoved', (removedObj) => {
+      eventBus.$on('cardWasRemoved', (removedObjId) => {
         this.cards = this.cards.filter((card) => {
-          return card.cid !== removedObj.cid;
+          return card.cid !== removedObjId;
         });
-      })
+      });
     }
   }
 </script>
@@ -68,16 +117,23 @@
   }
 
   body {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
-    background-color: #f1f1f0
+    background-color: #f1f1f0;
+    margin: 0;
   }
 
   button {
     padding: 0;
     border: none;
+    background: none;
+    -webkit-appearance: none;
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 7px #229fff;
+    }
   }
 
   ul {
@@ -91,9 +147,19 @@
     margin: auto;
   }
 
+  .app-note {
+    font-size: 20px;
+    text-align: center;
+  }
+
 
   .cards-group {
+    & + & {
+      margin-top: 40px;
+    }
     &__title {
+      margin-top: 0;
+      margin-bottom: 20px;
       text-align: center;
     }
   }

@@ -31,7 +31,7 @@
 <style lang="scss">
   .cards-list {
     display: grid;
-    grid-template-columns: repeat(5, 20%);
+    grid-template-columns: repeat(5, calc(20% - 10px / 1.2));
     grid-gap: 10px;
   }
 </style>
