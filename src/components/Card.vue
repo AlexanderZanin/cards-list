@@ -87,7 +87,6 @@
     }
 
     &__name {
-      text-transform: uppercase;
       text-overflow: ellipsis;
       overflow: hidden;
 

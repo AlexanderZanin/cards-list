@@ -1,8 +1,8 @@
 <template>
   <div class="cards-list">
-    <app-card v-for="card in filteredCard"
-              :key="card.cid"
-              :card="card"></app-card>
+    <app-card v-for="(card, key) in filteredCard"
+                :key="key"
+                :card="card"></app-card>
   </div>
 </template>
 
@@ -17,7 +17,9 @@
     computed: {
       filteredCard() {
         if (this.filterCardsInput.length < 3) {
-          return this.cards;
+          return this.cards.sort((a, b) => {
+            return b.created - a.created;
+          });
         }
 
         return this.cards.filter((item) => {

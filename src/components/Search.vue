@@ -1,12 +1,14 @@
 <template>
   <div class="search-box">
-    <input v-if="showInput"
-           class="search-box__input"
-           ref="searchInput"
-           type="search"
-           placeholder="filter by name"
-           @input="$emit('searching', filterCardsInput)"
-           v-model="filterCardsInput">
+    <transition name="expand">
+      <input v-if="showInput"
+             class="search-box__input"
+             ref="searchInput"
+             type="search"
+             placeholder="filter by name"
+             @input="$emit('searching', filterCardsInput)"
+             v-model="filterCardsInput">
+    </transition>
     <button class="search-box__button" @click="toggleInput">
       <i v-if="showInput" class="material-icons">close</i>
       <i v-else class="material-icons">search</i>
@@ -34,6 +36,7 @@
         }
 
         this.filterCardsInput = '';
+        this.$emit('searching', this.filterCardsInput)
       }
     }
   }
@@ -56,6 +59,16 @@
       border-radius: 3px;
       height: 24px;
       width: 24px;
+      cursor: pointer;
     }
+  }
+
+
+  .expand-enter-active, .expand-leave-active {
+    transition: all .25s;
+  }
+  .expand-enter, .expand-leave-to {
+    opacity: 0;
+    transform: translateX(40px);
   }
 </style>

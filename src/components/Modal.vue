@@ -133,6 +133,6 @@
 
   .modal-enter .modal__container,
   .modal-leave-active .modal__container {
-    transform: scale(.8);
+    transform: scale(.4);
   }
 </style>
