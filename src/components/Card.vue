@@ -65,6 +65,7 @@
 
 <style lang="scss">
   .card {
+    min-width: 0;
     padding: 20px 30px 20px 10px;
     display: flex;
     flex-direction: column;

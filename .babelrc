@@ -1,5 +1,7 @@
 {
+  "plugins": ["lodash"],
   "presets": [
+    ["env", { "targets": { "node": 6 } }],
     ["env", { "modules": false }],
     "stage-3"
   ]

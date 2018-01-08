@@ -4,6 +4,7 @@
            class="search-box__input"
            ref="searchInput"
            type="search"
+           placeholder="filter by name"
            @input="$emit('searching', filterCardsInput)"
            v-model="filterCardsInput">
     <button class="search-box__button" @click="toggleInput">

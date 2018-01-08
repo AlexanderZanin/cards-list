@@ -60,11 +60,6 @@
       appAddNewCard: AddNewCard
     },
     computed: {
-      sortedByDateOfModify() {
-//        return this.cards.sort((a, b) => {
-//            return a.modified - b.modified;
-//        });
-      },
       groupedByDateOfCreate() {
         const groups = _.groupBy(this.cards, (card) => {
           let date = new Date(card.created);
@@ -85,16 +80,9 @@
           });
         }
 
-//        console.log('sortable before', sortable);
-
-        let a = sortable.sort((a, b) => {
+        return sortable.sort((a, b) => {
           return b.time - a.time;
         });
-
-
-        console.log('sortable', a);
-        return a;
-
       }
     },
     created() {
