@@ -33,5 +33,17 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
+
+    @media all and (max-width: 1100px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media all and (max-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media all and (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

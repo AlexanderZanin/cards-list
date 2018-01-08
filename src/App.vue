@@ -133,6 +133,10 @@
   .container {
     width: 80%;
     margin: auto;
+
+    @media all and (max-width: 980px) {
+      width: 90%;
+    }
   }
 
   .app-note {

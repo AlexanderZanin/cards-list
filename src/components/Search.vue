@@ -45,12 +45,17 @@
     align-items: center;
 
     &__input {
-      padding: 3px 5px;
+      padding: 3px 7px;
       font-size: 18px;
+      background-color: #fff;
+      border: 1px solid #b2b2b2;
+      border-radius: 5px;
     }
 
     &__button {
       border-radius: 3px;
+      height: 24px;
+      width: 24px;
     }
   }
 </style>
