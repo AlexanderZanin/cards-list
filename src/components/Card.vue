@@ -47,12 +47,13 @@
       cardRename() {
         this.showEditName = true;
 
-        setTimeout(() => {
+
+        this.$nextTick(() => {
           let input = this.$refs.nameInput;
 
           input.focus();
           input.select();
-        }, 0);
+        });
       },
 
       finishEditing() {
