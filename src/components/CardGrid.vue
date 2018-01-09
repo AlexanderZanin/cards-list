@@ -23,7 +23,9 @@
         }
 
         return this.cards.filter((item) => {
-          return item.metadata.name.toLowerCase().indexOf(this.filterCardsInput) > -1;
+          const itemName = item.metadata.name.toLowerCase();
+
+          return itemName.indexOf(this.filterCardsInput) > -1;
         });
       }
     }

@@ -24,19 +24,18 @@
         showInput: false
       }
     },
+    updated() {
+      if (this.showInput) {
+        this.$refs.searchInput.focus();
+        return;
+      }
+
+      this.filterCardsInput = '';
+      this.$emit('searching', this.filterCardsInput)
+    },
     methods: {
       toggleInput() {
         this.showInput = !this.showInput;
-
-        if (this.showInput) {
-          setTimeout(() => {
-              this.$refs.searchInput.focus();
-          }, 0);
-          return;
-        }
-
-        this.filterCardsInput = '';
-        this.$emit('searching', this.filterCardsInput)
       }
     }
   }

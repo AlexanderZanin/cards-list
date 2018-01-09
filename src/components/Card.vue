@@ -77,6 +77,7 @@
 
     &__rename-input {
       font-size: 18px;
+      width: 100%;
     }
 
     &__rename-note {
