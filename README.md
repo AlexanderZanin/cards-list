@@ -1,4 +1,4 @@
-# chi-test
+# cards list
 
 > test task
 
